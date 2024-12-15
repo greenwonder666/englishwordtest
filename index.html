@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英文單字測驗</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>英文單字測驗</h1>
+        <div id="quiz-container">
+            <div class="quiz-header">
+                <div id="timer">15</div>
+                <div id="progress">題目 1 / 20</div>
+                <div id="score-display">得分: <span id="score">0</span></div>
+            </div>
+            <div id="word-container">
+                <span id="word"></span>
+                <button id="speak-btn" class="icon-btn">
+                    <i class="fas fa-volume-up"></i>
+                </button>
+            </div>
+            <div id="options"></div>
+            <div id="feedback" class="hidden"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
